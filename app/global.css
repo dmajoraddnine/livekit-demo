@@ -1,0 +1,121 @@
+h1 {
+	color: #333;
+	text-align: center;
+}
+
+#app-container {
+	height: 100vh;
+	display: flex;
+	position: relative;
+	align-items: stretch;
+}
+
+#grid-wrapper {
+	width: 99%;
+	height: 80%;
+}
+
+.center-section {
+	max-width: 1400px;
+	margin-left: auto;
+	margin-right: auto;
+	flex-grow: 1;
+}
+
+.connection-status {
+	position: absolute;
+	bottom: 2rem;
+  right: 0.5rem;
+  padding: 8px;
+  border-radius: 4px;
+  text-transform: capitalize;
+}
+.connection-status.connected {
+	background-color: green;
+}
+.connection-status.connecting {
+	background-color: goldenrod;
+}
+.connection-status.disconnected {
+	background-color: darkred;
+}
+
+.publish-status {
+	text-align: center;
+	color: #111;
+}
+.publish-status.published {
+	color: green;
+}
+
+.vid-container {
+	position: relative;
+}
+.vid-container .controls-wrapper {
+	position: absolute;
+	top: 18px;
+	right: 32px;
+}
+
+#video-elements {
+	margin: 40px;
+}
+#video-elements video {
+	width: 100%;
+	height: 100%;
+	transition: transform 1500ms ease-in;
+	transform:
+		rotateY(180deg)
+		rotateZ(0deg);
+}
+#video-elements.flip video {
+	transform:
+		rotateY(2860deg)
+		rotateZ(360deg);
+}
+
+.controls-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	position: relative;
+	z-index: 50;
+}
+.controls-wrapper button {
+	cursor: pointer;
+	padding: 8px 12px;
+	min-width: 200px;
+	min-height: 44px;
+	font-size: 100px;
+}
+.controls-wrapper button.xs {
+	min-width: 44px;
+}
+.controls-wrapper button:disabled {
+	cursor: initial;
+}
+
+.slider {
+	width: 100%;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+.slider input {
+	flex-grow: 1;
+}
+.slider .label {
+	width: 90px;
+	text-align: right;
+}
+.delay-sliders-wrapper {
+	width: 100%;
+}
+.delay-sliders-wrapper button {
+	width: 44px;
+	height: 44px;
+}

@@ -7,7 +7,7 @@ import '@livekit/components-styles';
 import ConnectionStatus from '../../components/ConnectionStatus.js';
 
 const serverUrl = 'wss://favorited-test-7e5e76k4.livekit.cloud';
-const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NTczNTI3MDgsImlkZW50aXR5IjoiZG1ham9yYWRkbmluZSIsImlzcyI6IkFQSTNMRUFLRnRNeFFKVyIsIm5hbWUiOiJkbWFqb3JhZGRuaW5lIiwibmJmIjoxNzU3MjY2MzA4LCJzdWIiOiJkbWFqb3JhZGRuaW5lIiwidmlkZW8iOnsicm9vbSI6IlRoZUdhcmRlbiIsInJvb21Kb2luIjp0cnVlfX0.L04hG5u6nZXD2_6Kk9kiTU6nsLxWI3X45rbZXJt9jno';
+const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NTc0MzY5MzQsImlkZW50aXR5IjoiZG1ham9yYWRkbmluZSIsImlzcyI6IkFQSTNMRUFLRnRNeFFKVyIsIm5hbWUiOiJkbWFqb3JhZGRuaW5lIiwibmJmIjoxNzU3MzUwNTM0LCJzdWIiOiJkbWFqb3JhZGRuaW5lIiwidmlkZW8iOnsicm9vbSI6IlRoZUdhcmRlbiIsInJvb21Kb2luIjp0cnVlfX0.3vv_Kq5R688DfUeNKsMsYtyLdTk2Bt3QnCDWm5DquYk';
 
 export default function App() {
   const [connectionStatus, setConnectionStatus] = useState('disconnected'); // 'disconnected' | 'connecting' | 'connected'

@@ -9,7 +9,7 @@ import { createEchoDelayEffect } from '../../lib/audio.js';
 import ConnectionStatus from '../../components/ConnectionStatus.js';
 
 const serverUrl = 'wss://favorited-test-7e5e76k4.livekit.cloud';
-const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NTczNTI3MjEsImlkZW50aXR5IjoiZG1ham9yYWRkbmluZTIiLCJpc3MiOiJBUEkzTEVBS0Z0TXhRSlciLCJuYW1lIjoiZG1ham9yYWRkbmluZTIiLCJuYmYiOjE3NTcyNjYzMjEsInN1YiI6ImRtYWpvcmFkZG5pbmUyIiwidmlkZW8iOnsicm9vbSI6IlRoZUdhcmRlbiIsInJvb21Kb2luIjp0cnVlfX0.Dl8vrQEXH3qaXFbYq-R3ukno4Xja5nZWB5_AWashQE4';
+const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NTc0MzY5MjgsImlkZW50aXR5IjoiZG1ham9yYWRkbmluZTIiLCJpc3MiOiJBUEkzTEVBS0Z0TXhRSlciLCJuYW1lIjoiZG1ham9yYWRkbmluZTIiLCJuYmYiOjE3NTczNTA1MjgsInN1YiI6ImRtYWpvcmFkZG5pbmUyIiwidmlkZW8iOnsicm9vbSI6IlRoZUdhcmRlbiIsInJvb21Kb2luIjp0cnVlfX0.UjKvmwaiy7qFHRU8uCE15mRWyGgrfDGs44cLUfwvgUk';
 
 // record screen & source code
 
@@ -202,7 +202,7 @@ export default function App() {
                   hasAudioTracksSubbed &&
                   <div style={{ display: 'flex', flexDirection: 'column', textAlign: 'center' }}>
                     <span style={{ color: '#111', paddingBottom: '12px', fontSize: '32px', fontWeight: 'bold' }}>
-                      Baby's First Loop Pedal
+                      Baby's First Delay Pedal
                     </span>
                     <div style={{ display: 'flex' }}>
                       <button onClick={ handleAddDelayClick }>

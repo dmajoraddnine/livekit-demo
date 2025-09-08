@@ -53,8 +53,8 @@ h1 {
 }
 .vid-container .controls-wrapper {
 	position: absolute;
-	top: 18px;
-	right: 32px;
+	top: 0;
+	right: 4rem;
 }
 
 #video-elements {

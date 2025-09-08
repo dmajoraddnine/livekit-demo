@@ -1,4 +1,4 @@
-A demonstration of [LiveKit WebRTC framework](https://livekit.io). 
+A demonstration of [LiveKit WebRTC framework](https://livekit.io), using NextJS and ReactJS.
 
 Contains simple publish and subscribe functionality using hardcoded LiveKit room and identities. 
 Also includes a simple client-based delay-pedal feature using the [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API).

@@ -7,7 +7,6 @@
     "lint:fix": "eslint --fix"
   },
   "dependencies": {
-    "@livekit/components-react": "^2.9.14",
     "@livekit/components-styles": "^1.1.6",
     "livekit-client": "^2.15.6",
     "next": "^15.5.2",
